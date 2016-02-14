@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduiApp1", "NetduiApp1\NetduiApp1.csproj", "{CAFF4B7F-CC65-4122-AC03-78C1BE75A14C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoApp2", "NetduinoApp2\NetduinoApp2.csproj", "{A9DFA480-6230-47D1-853D-1554A78FDE6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberClassifier", "NumberClassifier\NumberClassifier.csproj", "{67B967B9-572C-4DE0-827C-95A6304BC5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberDetector", "PrimeNumberDetector\PrimeNumberDetector.csproj", "{125BB056-6DCC-493C-9E58-62B3EF17F409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberFlasher", "PrimeNumberFlasher\PrimeNumberFlasher.csproj", "{AEE7D92F-3242-495C-860A-5D01F70A9A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,24 @@ Global
 		{A9DFA480-6230-47D1-853D-1554A78FDE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DFA480-6230-47D1-853D-1554A78FDE6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9DFA480-6230-47D1-853D-1554A78FDE6D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B967B9-572C-4DE0-827C-95A6304BC5D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125BB056-6DCC-493C-9E58-62B3EF17F409}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE7D92F-3242-495C-860A-5D01F70A9A85}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
