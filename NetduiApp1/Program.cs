@@ -22,7 +22,8 @@ namespace NetduiApp1
         public static void HelloWorld1()
         {
             OutputPort led = new OutputPort(Pins.ONBOARD_LED, false);
-            InputPort btn = new InputPort(Pins.ONBOARD_BTN, false, Port.ResistorMode.Disabled);
+            //(cpu.pin)0x15 = Pins.ONBOARD_BTN, fixed in 4.3.2.3
+            InputPort btn = new InputPort((Cpu.Pin)0x15, false, Port.ResistorMode.Disabled);
             bool on = true;
 
             bool currentState = false;

@@ -39,13 +39,13 @@ namespace PrimeNumberDetector
                     timer.Reset();
                     timer.Start();
                 }
-
+                
                 //if finished entering number
                 else if (timer.ElapsedMilliseconds > 3000)
                 {
                     bool isp = IsPrime(clicks);
                     Debug.Print(clicks.ToString() + " > " + isp);
-
+                    
                     timer.Reset();
 
                     if (IsPrime(clicks))
